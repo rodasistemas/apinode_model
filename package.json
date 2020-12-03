@@ -1,0 +1,51 @@
+{
+  "name": "apinode_model",
+  "version": "1.0.0",
+  "description": "API de Modelo para REST",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodasistemas/apinode_model.git"
+  },
+  "keywords": [
+    "NODE",
+    "JAVASCRIPT",
+    "TYPESCRIPT"
+  ],
+  "author": "rodasistemas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodasistemas/apinode_model/issues"
+  },
+  "homepage": "https://github.com/rodasistemas/apinode_model#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "sucrase": "^3.16.0",
+    "uuid-token-generator": "^1.0.0",
+    "yup": "^0.28.1",
+    "aes-js": "^3.1.2",
+    "aes256": "^1.0.4",
+    "assert": "^2.0.0",
+    "async": "^3.1.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.0",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.8",
+    "lodash": "^4.17.15",
+    "mime-types": "^2.1.26",
+    "moment": "^2.24.0",
+    "sanitizer": "^0.1.3"
+    
+  }
+}

@@ -6,6 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon ./src/server.js",
+    "build": "yarn run clean && sucrase ./src -d ./dist --transforms imports",
+    "clean": "rimraf ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -46,6 +48,7 @@
     "mime-types": "^2.1.26",
     "moment": "^2.24.0",
     "sanitizer": "^0.1.3"
+    
     
   }
 }
